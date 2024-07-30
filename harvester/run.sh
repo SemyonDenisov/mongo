@@ -1,0 +1,1 @@
+taskset --cpu-list 10-19 java -jar Harvesters.jar lands

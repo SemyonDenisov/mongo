@@ -1,0 +1,896 @@
+[
+  {
+    "nameSufficient": true,
+    "code": "01",
+    "typeShort": "Респ",
+    "fiasName": "Республика Адыгея",
+    "name": "Адыгея",
+    "typeLong": [
+      "республика"
+    ],
+    "fias": "d8327a56-80de-4df2-815c-4f6ab1224c50"
+  },
+  {
+    "nameSufficient": true,
+    "code": "02",
+    "typeShort": "Респ",
+    "fiasName": "Республика Башкортостан",
+    "name": "Башкортостан",
+    "typeLong": [
+      "республика"
+    ],
+    "fias": "6f2cbfd8-692a-4ee4-9b16-067210bde3fc"
+  },
+  {
+    "nameSufficient": true,
+    "code": "03",
+    "typeShort": "Респ",
+    "fiasName": "Республика Бурятия",
+    "name": "Бурятия",
+    "typeLong": [
+      "республика"
+    ],
+    "fias": "a84ebed3-153d-4ba9-8532-8bdf879e1f5a"
+  },
+  {
+    "nameSufficient": true,
+    "code": "04",
+    "typeShort": "Респ",
+    "fiasName": "Республика Алтай",
+    "name": "Алтай",
+    "typeLong": [
+      "республика"
+    ],
+    "fias": "5c48611f-5de6-4771-9695-7e36a4e7529d"
+  },
+  {
+    "nameSufficient": true,
+    "code": "05",
+    "typeShort": "Респ",
+    "fiasName": "Республика Дагестан",
+    "name": "Дагестан",
+    "typeLong": [
+      "республика"
+    ],
+    "fias": "0bb7fa19-736d-49cf-ad0e-9774c4dae09b"
+  },
+  {
+    "nameSufficient": true,
+    "code": "06",
+    "typeShort": "Респ",
+    "fiasName": "Республика Ингушетия",
+    "name": "Ингушетия",
+    "typeLong": [
+      "республика"
+    ],
+    "fias": "b2d8cd20-cabc-4deb-afad-f3c4b4d55821"
+  },
+  {
+    "nameSufficient": true,
+    "code": "07",
+    "typeShort": "Респ",
+    "fiasName": "Кабардино-Балкарская Республика",
+    "name": "Кабардино-Балкарская",
+    "otherName": "Кабардино-Балкария",
+    "typeLong": [
+      "республика"
+    ],
+    "fias": "1781f74e-be4a-4697-9c6b-493057c94818"
+  },
+  {
+    "nameSufficient": true,
+    "code": "08",
+    "typeShort": "Респ",
+    "fiasName": "Республика Калмыкия",
+    "name": "Калмыкия",
+    "typeLong": [
+      "республика"
+    ],
+    "fias": "491cde9d-9d76-4591-ab46-ea93c079e686"
+  },
+  {
+    "nameSufficient": true,
+    "code": "09",
+    "typeShort": "Респ",
+    "fiasName": "Карачаево-Черкесская Республика",
+    "name": "Карачаево-Черкесская",
+    "otherName": "Карачаево-Черкессия",
+    "typeLong": [
+      "республика"
+    ],
+    "fias": "61b95807-388a-4cb1-9bee-889f7cf811c8"
+  },
+  {
+    "nameSufficient": true,
+    "code": "10",
+    "typeShort": "Респ",
+    "fiasName": "Республика Карелия",
+    "name": "Карелия",
+    "typeLong": [
+      "республика"
+    ],
+    "fias": "248d8071-06e1-425e-a1cf-d1ff4c4a14a8"
+  },
+  {
+    "code": "11",
+    "typeShort": "Респ",
+    "fiasName": "Республика Коми",
+    "name": "Коми",
+    "typeLong": [
+      "республика"
+    ],
+    "fias": "c20180d9-ad9c-46d1-9eff-d60bc424592a"
+  },
+  {
+    "nameSufficient": true,
+    "code": "12",
+    "typeShort": "Респ",
+    "fiasName": "Республика Марий Эл",
+    "name": "Марий Эл",
+    "typeLong": [
+      "республика"
+    ],
+    "fias": "de2cbfdf-9662-44a4-a4a4-8ad237ae4a3e"
+  },
+  {
+    "nameSufficient": true,
+    "code": "13",
+    "typeShort": "Респ",
+    "fiasName": "Республика Мордовия",
+    "name": "Мордовия",
+    "typeLong": [
+      "республика"
+    ],
+    "fias": "37a0c60a-9240-48b5-a87f-0d8c86cdb6e1"
+  },
+  {
+    "nameSufficient": true,
+    "code": "14",
+    "typeShort": "Респ",
+    "fiasName": "Республика Саха (Якутия)",
+    "name": "Якутия",
+    "otherName": "Саха",
+    "typeLong": [
+      "республика"
+    ],
+    "fias": "c225d3db-1db6-4063-ace0-b3fe9ea3805f"
+  },
+  {
+    "nameSufficient": true,
+    "code": "15",
+    "typeShort": "Респ",
+    "fiasName": "Республика Северная Осетия - Алания",
+    "name": "Северная Осетия",
+    "otherName": "Алания",
+    "typeLong": [
+      "республика"
+    ],
+    "fias": "de459e9c-2933-4923-83d1-9c64cfd7a817"
+  },
+  {
+    "nameSufficient": true,
+    "code": "16",
+    "typeShort": "Респ",
+    "fiasName": "Республика Татарстан",
+    "name": "Татарстан",
+    "typeLong": [
+      "республика"
+    ],
+    "fias": "0c089b04-099e-4e0e-955a-6bf1ce525f1a"
+  },
+  {
+    "nameSufficient": true,
+    "code": "17",
+    "typeShort": "Респ",
+    "fiasName": "Республика Тыва",
+    "name": "Тыва",
+    "otherName": "Тывинская",
+    "typeLong": [
+      "республика"
+    ],
+    "fias": "026bc56f-3731-48e9-8245-655331f596c0"
+  },
+  {
+    "code": "18",
+    "typeShort": "Респ",
+    "fiasName": "Удмуртская Республика",
+    "name": "Удмуртская",
+    "otherName": "Удмуртия",
+    "typeLong": [
+      "республика"
+    ],
+    "fias": "52618b9c-bcbb-47e7-8957-95c63f0b17cc"
+  },
+  {
+    "nameSufficient": true,
+    "code": "19",
+    "typeShort": "Респ",
+    "fiasName": "Республика Хакасия",
+    "name": "Хакасия",
+    "typeLong": [
+      "республика"
+    ],
+    "fias": "8d3f1d35-f0f4-41b5-b5b7-e7cadf3e7bd7"
+  },
+  {
+    "code": "20",
+    "typeShort": "Респ",
+    "fiasName": "Чеченская Республика",
+    "name": "Чеченская",
+    "otherName": "Чечня",
+    "typeLong": [
+      "республика"
+    ],
+    "fias": "de67dc49-b9ba-48a3-a4cc-c2ebfeca6c5e"
+  },
+  {
+    "code": "21",
+    "typeShort": "Респ",
+    "fiasName": "Чувашская республика - Чувашия",
+    "name": "Чувашская",
+    "otherName": "Чувашия",
+    "typeLong": [
+      "республика"
+    ],
+    "fias": "878fc621-3708-46c7-a97f-5a13a4176b3e"
+  },
+  {
+    "code": "22",
+    "typeShort": "край",
+    "fiasName": "Алтайский край",
+    "name": "Алтайский",
+    "typeLong": [
+      "кр"
+    ],
+    "fias": "8276c6a1-1a86-4f0d-8920-aba34d4cc34a"
+  },
+  {
+    "code": "23",
+    "typeShort": "край",
+    "fiasName": "Краснодарский край",
+    "name": "Краснодарский",
+    "typeLong": [
+      "кр"
+    ],
+    "fias": "d00e1013-16bd-4c09-b3d5-3cb09fc54bd8"
+  },
+  {
+    "code": "24",
+    "typeShort": "край",
+    "fiasName": "Красноярский край",
+    "name": "Красноярский",
+    "typeLong": [
+      "кр"
+    ],
+    "fias": "db9c4f8b-b706-40e2-b2b4-d31b98dcd3d1"
+  },
+  {
+    "code": "25",
+    "typeShort": "край",
+    "fiasName": "Приморский край",
+    "name": "Приморский",
+    "typeLong": [
+      "кр"
+    ],
+    "fias": "43909681-d6e1-432d-b61f-ddac393cb5da"
+  },
+  {
+    "code": "26",
+    "typeShort": "край",
+    "fiasName": "Ставропольский край",
+    "name": "Ставропольский",
+    "typeLong": [
+      "кр"
+    ],
+    "fias": "327a060b-878c-4fb4-8dc4-d5595871a3d8"
+  },
+  {
+    "code": "27",
+    "typeShort": "край",
+    "fiasName": "Хабаровский край",
+    "name": "Хабаровский",
+    "typeLong": [
+      "кр"
+    ],
+    "fias": "7d468b39-1afa-41ec-8c4f-97a8603cb3d4"
+  },
+  {
+    "code": "28",
+    "typeShort": "обл",
+    "fiasName": "Амурская область",
+    "name": "Амурская",
+    "typeLong": [
+      "область"
+    ],
+    "fias": "844a80d6-5e31-4017-b422-4d9c01e9942c"
+  },
+  {
+    "code": "29",
+    "typeShort": "обл",
+    "fiasName": "Архангельская область",
+    "name": "Архангельская",
+    "typeLong": [
+      "область"
+    ],
+    "fias": "294277aa-e25d-428c-95ad-46719c4ddb44"
+  },
+  {
+    "code": "30",
+    "typeShort": "обл",
+    "fiasName": "Астраханская область",
+    "name": "Астраханская",
+    "typeLong": [
+      "область"
+    ],
+    "fias": "83009239-25cb-4561-af8e-7ee111b1cb73"
+  },
+  {
+    "code": "31",
+    "typeShort": "обл",
+    "fiasName": "Белгородская область",
+    "name": "Белгородская",
+    "typeLong": [
+      "область"
+    ],
+    "fias": "639efe9d-3fc8-4438-8e70-ec4f2321f2a7"
+  },
+  {
+    "code": "32",
+    "typeShort": "обл",
+    "fiasName": "Брянская область",
+    "name": "Брянская",
+    "typeLong": [
+      "область"
+    ],
+    "fias": "f5807226-8be0-4ea8-91fc-39d053aec1e2"
+  },
+  {
+    "code": "33",
+    "typeShort": "обл",
+    "fiasName": "Владимирская область",
+    "name": "Владимирская",
+    "typeLong": [
+      "область"
+    ],
+    "fias": "b8837188-39ee-4ff9-bc91-fcc9ed451bb3"
+  },
+  {
+    "code": "34",
+    "typeShort": "обл",
+    "fiasName": "Волгоградская область",
+    "name": "Волгоградская",
+    "typeLong": [
+      "область"
+    ],
+    "fias": "da051ec8-da2e-4a66-b542-473b8d221ab4"
+  },
+  {
+    "code": "35",
+    "typeShort": "обл",
+    "fiasName": "Вологодская область",
+    "name": "Вологодская",
+    "typeLong": [
+      "область"
+    ],
+    "fias": "ed36085a-b2f5-454f-b9a9-1c9a678ee618"
+  },
+  {
+    "code": "36",
+    "typeShort": "обл",
+    "fiasName": "Воронежская область",
+    "name": "Воронежская",
+    "typeLong": [
+      "область"
+    ],
+    "fias": "b756fe6b-bbd3-44d5-9302-5bfcc740f46e"
+  },
+  {
+    "code": "37",
+    "typeShort": "обл",
+    "fiasName": "Ивановская область",
+    "name": "Ивановская",
+    "typeLong": [
+      "область"
+    ],
+    "fias": "0824434f-4098-4467-af72-d4f702fed335"
+  },
+  {
+    "code": "38",
+    "typeShort": "обл",
+    "fiasName": "Иркутская область",
+    "name": "Иркутская",
+    "typeLong": [
+      "область"
+    ],
+    "fias": "6466c988-7ce3-45e5-8b97-90ae16cb1249"
+  },
+  {
+    "code": "39",
+    "typeShort": "обл",
+    "fiasName": "Калининградская область",
+    "name": "Калининградская",
+    "typeLong": [
+      "область"
+    ],
+    "fias": "90c7181e-724f-41b3-b6c6-bd3ec7ae3f30"
+  },
+  {
+    "code": "40",
+    "typeShort": "обл",
+    "fiasName": "Калужская область",
+    "name": "Калужская",
+    "typeLong": [
+      "область"
+    ],
+    "fias": "18133adf-90c2-438e-88c4-62c41656de70"
+  },
+  {
+    "code": "41",
+    "typeShort": "край",
+    "fiasName": "Камчатский край",
+    "name": "Камчатский",
+    "typeLong": [
+      "кр"
+    ],
+    "fias": "d02f30fc-83bf-4c0f-ac2b-5729a866a207"
+  },
+  {
+    "code": "42",
+    "typeShort": "обл",
+    "fiasName": "Кемеровская область - Кузбасс",
+    "name": "Кемеровская",
+    "typeLong": [
+      "область"
+    ],
+    "fias": "393aeccb-89ef-4a7e-ae42-08d5cebc2e30"
+  },
+  {
+    "code": "43",
+    "typeShort": "обл",
+    "fiasName": "Кировская область",
+    "name": "Кировская",
+    "typeLong": [
+      "область"
+    ],
+    "fias": "0b940b96-103f-4248-850c-26b6c7296728"
+  },
+  {
+    "code": "44",
+    "typeShort": "обл",
+    "fiasName": "Костромская область",
+    "name": "Костромская",
+    "typeLong": [
+      "область"
+    ],
+    "fias": "15784a67-8cea-425b-834a-6afe0e3ed61c"
+  },
+  {
+    "code": "45",
+    "typeShort": "обл",
+    "fiasName": "Курганская область",
+    "name": "Курганская",
+    "typeLong": [
+      "область"
+    ],
+    "fias": "4a3d970f-520e-46b9-b16c-50d4ca7535a8"
+  },
+  {
+    "code": "46",
+    "typeShort": "обл",
+    "fiasName": "Курская область",
+    "name": "Курская",
+    "typeLong": [
+      "область"
+    ],
+    "fias": "ee594d5e-30a9-40dc-b9f2-0add1be44ba1"
+  },
+  {
+    "code": "47",
+    "typeShort": "обл",
+    "fiasName": "Ленинградская область",
+    "name": "Ленинградская",
+    "typeLong": [
+      "область"
+    ],
+    "fias": "6d1ebb35-70c6-4129-bd55-da3969658f5d"
+  },
+  {
+    "code": "48",
+    "typeShort": "обл",
+    "fiasName": "Липецкая область",
+    "name": "Липецкая",
+    "typeLong": [
+      "область"
+    ],
+    "fias": "1490490e-49c5-421c-9572-5673ba5d80c8"
+  },
+  {
+    "code": "49",
+    "typeShort": "обл",
+    "fiasName": "Магаданская область",
+    "name": "Магаданская",
+    "typeLong": [
+      "область"
+    ],
+    "fias": "9c05e812-8679-4710-b8cb-5e8bd43cdf48"
+  },
+  {
+    "code": "50",
+    "typeShort": "обл",
+    "fiasName": "Московская область",
+    "name": "Московская",
+    "typeLong": [
+      "область"
+    ],
+    "fias": "29251dcf-00a1-4e34-98d4-5c47484a36d4"
+  },
+  {
+    "code": "51",
+    "typeShort": "обл",
+    "fiasName": "Мурманская область",
+    "name": "Мурманская",
+    "typeLong": [
+      "область"
+    ],
+    "fias": "1c727518-c96a-4f34-9ae6-fd510da3be03"
+  },
+  {
+    "code": "52",
+    "typeShort": "обл",
+    "fiasName": "Нижегородская область",
+    "name": "Нижегородская",
+    "typeLong": [
+      "область"
+    ],
+    "fias": "88cd27e2-6a8a-4421-9718-719a28a0a088"
+  },
+  {
+    "code": "53",
+    "typeShort": "обл",
+    "fiasName": "Новгородская область",
+    "name": "Новгородская",
+    "typeLong": [
+      "область"
+    ],
+    "fias": "e5a84b81-8ea1-49e3-b3c4-0528651be129"
+  },
+  {
+    "code": "54",
+    "typeShort": "обл",
+    "fiasName": "Новосибирская область",
+    "name": "Новосибирская",
+    "typeLong": [
+      "область"
+    ],
+    "fias": "1ac46b49-3209-4814-b7bf-a509ea1aecd9"
+  },
+  {
+    "code": "55",
+    "typeShort": "обл",
+    "fiasName": "Омская область",
+    "name": "Омская",
+    "typeLong": [
+      "область"
+    ],
+    "fias": "05426864-466d-41a3-82c4-11e61cdc98ce"
+  },
+  {
+    "code": "56",
+    "typeShort": "обл",
+    "fiasName": "Оренбургская область",
+    "name": "Оренбургская",
+    "typeLong": [
+      "область"
+    ],
+    "fias": "8bcec9d6-05bc-4e53-b45c-ba0c6f3a5c44"
+  },
+  {
+    "code": "57",
+    "typeShort": "обл",
+    "fiasName": "Орловская область",
+    "name": "Орловская",
+    "typeLong": [
+      "область"
+    ],
+    "fias": "5e465691-de23-4c4e-9f46-f35a125b5970"
+  },
+  {
+    "code": "58",
+    "typeShort": "обл",
+    "fiasName": "Пензенская область",
+    "name": "Пензенская",
+    "typeLong": [
+      "область"
+    ],
+    "fias": "c99e7924-0428-4107-a302-4fd7c0cca3ff"
+  },
+  {
+    "code": "59",
+    "typeShort": "край",
+    "fiasName": "Пермский край",
+    "name": "Пермский",
+    "typeLong": [
+      "кр"
+    ],
+    "fias": "4f8b1a21-e4bb-422f-9087-d3cbf4bebc14"
+  },
+  {
+    "code": "60",
+    "typeShort": "обл",
+    "fiasName": "Псковская область",
+    "name": "Псковская",
+    "typeLong": [
+      "область"
+    ],
+    "fias": "f6e148a1-c9d0-4141-a608-93e3bd95e6c4"
+  },
+  {
+    "code": "61",
+    "typeShort": "обл",
+    "fiasName": "Ростовская область",
+    "name": "Ростовская",
+    "typeLong": [
+      "область"
+    ],
+    "fias": "f10763dc-63e3-48db-83e1-9c566fe3092b"
+  },
+  {
+    "code": "62",
+    "typeShort": "обл",
+    "fiasName": "Рязанская область",
+    "name": "Рязанская",
+    "typeLong": [
+      "область"
+    ],
+    "fias": "963073ee-4dfc-48bd-9a70-d2dfc6bd1f31"
+  },
+  {
+    "code": "63",
+    "typeShort": "обл",
+    "fiasName": "Самарская область",
+    "name": "Самарская",
+    "typeLong": [
+      "область"
+    ],
+    "fias": "df3d7359-afa9-4aaa-8ff9-197e73906b1c"
+  },
+  {
+    "code": "64",
+    "typeShort": "обл",
+    "fiasName": "Саратовская область",
+    "name": "Саратовская",
+    "typeLong": [
+      "область"
+    ],
+    "fias": "df594e0e-a935-4664-9d26-0bae13f904fe"
+  },
+  {
+    "code": "65",
+    "typeShort": "обл",
+    "fiasName": "Сахалинская область",
+    "name": "Сахалинская",
+    "typeLong": [
+      "область"
+    ],
+    "fias": "aea6280f-4648-460f-b8be-c2bc18923191"
+  },
+  {
+    "code": "66",
+    "typeShort": "обл",
+    "fiasName": "Свердловская область",
+    "name": "Свердловская",
+    "typeLong": [
+      "область"
+    ],
+    "fias": "92b30014-4d52-4e2e-892d-928142b924bf"
+  },
+  {
+    "code": "67",
+    "typeShort": "обл",
+    "fiasName": "Смоленская область",
+    "name": "Смоленская",
+    "typeLong": [
+      "область"
+    ],
+    "fias": "e8502180-6d08-431b-83ea-c7038f0df905"
+  },
+  {
+    "code": "68",
+    "typeShort": "обл",
+    "fiasName": "Тамбовская область",
+    "name": "Тамбовская",
+    "typeLong": [
+      "область"
+    ],
+    "fias": "a9a71961-9363-44ba-91b5-ddf0463aebc2"
+  },
+  {
+    "code": "69",
+    "typeShort": "обл",
+    "fiasName": "Тверская область",
+    "name": "Тверская",
+    "typeLong": [
+      "область"
+    ],
+    "fias": "61723327-1c20-42fe-8dfa-402638d9b396"
+  },
+  {
+    "code": "70",
+    "typeShort": "обл",
+    "fiasName": "Томская область",
+    "name": "Томская",
+    "typeLong": [
+      "область"
+    ],
+    "fias": "889b1f3a-98aa-40fc-9d3d-0f41192758ab"
+  },
+  {
+    "code": "71",
+    "typeShort": "обл",
+    "fiasName": "Тульская область",
+    "name": "Тульская",
+    "typeLong": [
+      "область"
+    ],
+    "fias": "d028ec4f-f6da-4843-ada6-b68b3e0efa3d"
+  },
+  {
+    "code": "72",
+    "typeShort": "обл",
+    "fiasName": "Тюменская область",
+    "name": "Тюменская",
+    "typeLong": [
+      "область"
+    ],
+    "fias": "54049357-326d-4b8f-b224-3c6dc25d6dd3"
+  },
+  {
+    "code": "73",
+    "typeShort": "обл",
+    "fiasName": "Ульяновская область",
+    "name": "Ульяновская",
+    "typeLong": [
+      "область"
+    ],
+    "fias": "fee76045-fe22-43a4-ad58-ad99e903bd58"
+  },
+  {
+    "code": "74",
+    "typeShort": "обл",
+    "fiasName": "Челябинская область",
+    "name": "Челябинская",
+    "typeLong": [
+      "область"
+    ],
+    "fias": "27eb7c10-a234-44da-a59c-8b1f864966de"
+  },
+  {
+    "code": "75",
+    "typeShort": "край",
+    "fiasName": "Забайкальский край",
+    "name": "Забайкальский",
+    "typeLong": [
+      "кр"
+    ],
+    "fias": "b6ba5716-eb48-401b-8443-b197c9578734"
+  },
+  {
+    "code": "76",
+    "typeShort": "обл",
+    "fiasName": "Ярославская область",
+    "name": "Ярославская",
+    "typeLong": [
+      "область"
+    ],
+    "fias": "a84b2ef4-db03-474b-b552-6229e801ae9b"
+  },
+  {
+    "nameSufficient": true,
+    "code": "77",
+    "typeShort": "г",
+    "fiasName": "Город Москва",
+    "name": "Москва",
+    "typeLong": [
+      "город"
+    ],
+    "fias": "0c5b2444-70a0-4932-980c-b4dc0d3f02b5"
+  },
+  {
+    "nameSufficient": true,
+    "code": "78",
+    "typeShort": "г",
+    "fiasName": "Город Санкт-Петербург",
+    "name": "Санкт-Петербург",
+    "typeLong": [
+      "город"
+    ],
+    "fias": "c2deb16a-0330-4f05-821f-1d09c93331e6"
+  },
+  {
+    "code": "79",
+    "typeShort": "Аобл",
+    "fiasName": "Еврейская автономная область",
+    "name": "Еврейская",
+    "typeLong": [
+      "автономная область",
+      "автономная обл",
+      "авт обл"
+    ],
+    "fias": "1b507b09-48c9-434f-bf6f-65066211c73e"
+  },
+  {
+    "code": "29",
+    "typeShort": "АО",
+    "fiasName": "Ненецкий автономный округ",
+    "name": "Ненецкий",
+    "typeLong": [
+      "автономный округ"
+    ],
+    "fias": "89db3198-6803-4106-9463-cbf781eff0b8"
+  },
+  {
+    "code": "86",
+    "typeShort": "АО",
+    "fiasName": "Ханты-Мансийский Автономный округ - Югра",
+    "name": "Ханты-Мансийский",
+    "otherName": "ХМАО",
+    "typeLong": [
+      "автономный округ"
+    ],
+    "fias": "d66e5325-3a25-4d29-ba86-4ca351d9704b"
+  },
+  {
+    "code": "87",
+    "typeShort": "АО",
+    "fiasName": "Чукотский автономный округ",
+    "name": "Чукотский",
+    "typeLong": [
+      "автономный округ"
+    ],
+    "fias": "f136159b-404a-4f1f-8d8d-d169e1374d5c"
+  },
+  {
+    "nameSufficient": true,
+    "code": "89",
+    "typeShort": "АО",
+    "fiasName": "Ямало-Ненецкий автономный округ",
+    "name": "Ямало-Ненецкий",
+    "otherName": "ЯНАО",
+    "typeLong": [
+      "автономный округ"
+    ],
+    "fias": "826fa834-3ee8-404f-bdbc-13a5221cfb6e"
+  },
+  {
+    "nameSufficient": true,
+    "code": "91",
+    "typeShort": "Респ",
+    "fiasName": "Республика Крым",
+    "name": "Крым",
+    "typeLong": [
+      "республика"
+    ],
+    "fias": "bd8e6511-e4b9-4841-90de-6bbc231a789e"
+  },
+  {
+    "nameSufficient": true,
+    "code": "92",
+    "typeShort": "г",
+    "fiasName": "Город Севастополь",
+    "name": "Севастополь",
+    "typeLong": [
+      "город"
+    ],
+    "fias": "6fdecb78-893a-4e3f-a5ba-aa062459463b"
+  },
+  {
+    "code": "99",
+    "typeShort": "г",
+    "fiasName": "Город Байконур",
+    "name": "Байконур",
+    "typeLong": [
+      "город"
+    ],
+    "fias": "63ed1a35-4be6-4564-a1ec-0c51f7383314"
+  }
+]

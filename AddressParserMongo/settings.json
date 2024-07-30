@@ -1,0 +1,184 @@
+{
+  "options": {
+    "parallel": false,
+    "runNatasha": false,
+    "datasetFile": "dataset1.txt",
+    "cudaOutFile": "out_cuda.jsonl",
+    "cudaCommand": "",
+    "deepparseCommand": "",
+    "cudaParserDir": "/home/rk_services/test_AddressParser/cuda-address/",
+    "yandexDir": "/home/rk_services/test_AddressParser/yandex/",
+    "yandexOutFile": "out_yandex.jsonl",
+    "runYandex": false,
+    "elasticParserDir": "/home/rk_services/test_AddressParser/elastic-address-normalizer/",
+    "elasticOutFile": "out_elastic.jsonl",
+    "elasticHost": "192.168.57.102",
+    "elasticPort": 9200,
+    "threads": 3,
+    "elasticScheme": "http",
+    "deepparseDir": "/home/rk_services/test_AddressParser/deepparse/",
+    "deepparseOutFile": "out_deepparse.jsonl",
+    "libpostalDir": "/home/rk_services/test_AddressParser/pypostal/",
+    "libpostalOutFile": "out_libpostal.jsonl",
+    "geonormCatalog": "/home/rk_services/test_AddressParser/natasha/",
+    "natashaOutFile": "out_natasha.jsonl",
+    "unitedOutFile": "united_out.jsonl",
+    "parsersIndexes": {
+      "natasha": 0,
+      "libpostal": 1,
+      "cuda": 2,
+      "deepparse": 3,
+      "elastic": 4,
+      "yandex": 5
+    },
+    "fieldsBest": {
+      "postalcode": [
+        1
+      ],
+      "region": [
+        0,
+        4
+      ],
+      "region_type": [
+        2,
+        0
+      ],
+      "district": [
+        0,
+        2
+      ],
+      "district_type": [
+        1,
+        3,
+        4
+      ],
+      "city": [
+        0,
+        4
+      ],
+      "city_type": [
+        0,
+        4
+      ],
+      "street": [
+        0,
+        4
+      ],
+      "street_type": [
+        2,
+        0,
+        4,
+        1
+      ],
+      "house": [
+        0,
+        1,
+        2
+      ],
+      "house_type": [
+        2,
+        1
+      ],
+      "unit": [
+        0,
+        2,
+        4
+      ],
+      "unit_type": [
+        4,
+        2
+      ]
+    },
+    "fieldsElse": {
+      "postalcode": [
+        4
+      ],
+      "region": [
+        2,
+        1,
+        3
+      ],
+      "region_type": [
+        1,
+        3,
+        4
+      ],
+      "district": [
+        1,
+        3,
+        4
+      ],
+      "district_type": [
+        2,
+        0
+      ],
+      "city": [
+        1,
+        2
+      ],
+      "city_type": [
+        2,
+        1
+      ],
+      "street": [
+        1,
+        2,
+        3
+      ],
+      "street_type": [],
+      "house": [
+        3,
+        4
+      ],
+      "house_type": [],
+      "unit": [
+        1,
+        3
+      ],
+      "unit_type": [
+        3,
+        1
+      ]
+    },
+    "specialWords": {
+      "house": {
+        "РґРѕРј": 5,
+        "РєРѕСЂРїСѓСЃ": 3,
+        "РєРѕСЂРїСѓСЃР°": 3,
+        "РєРѕСЂРїСѓСЃС‹": 3,
+        "Р»РёС‚РµСЂР°": 3,
+        "Р»РёС‚РµСЂС‹": 3,
+        "Р»РёС‚РµСЂ": 3,
+        "СЃС‚СЂРѕРµРЅРёРµ": 3,
+        "СЃС‚СЂРѕРµРЅРёСЏ": 3,
+        "РєРѕСЂРї": 1,
+        "Р»РёС‚": 1,
+        "СЃС‚СЂ": 1
+      },
+      "unit": {
+      }
+    },
+    "algorithmsForCommonValue": {
+      "region": "firstAlgorithm",
+      "city": "firstAlgorithm",
+      "district": "firstAlgorithm",
+      "street": "firstAlgorithm",
+      "house": "secondAlgorithm",
+      "unit": "secondAlgorithm"
+    },
+    "ConnectionString": "mongodb://192.168.57.102:27017",
+    "commonDatabase": "rk_common"
+  },
+  "params": {
+    "ConnectionString": "mongodb://192.168.57.102:27017",
+    "database": "debug_region63_samarskaya_obl",
+    "dataset": "testLands_houses",
+    "addressField": "AddressDesc",
+    "keyFields": "cadNumInt",
+    "filter": {
+      "HouseNumber": null, 
+      "Street": null, 
+      "CadQuarter": "63:17:1301002"
+    }
+  }
+}

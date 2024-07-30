@@ -1,0 +1,433 @@
+{
+  "options": {
+    "catalog": "C:\\Users\\y\\IdeaProjects\\проекты\\data\\",
+    "PORTION_SIZE": 100,
+    "parallel": false,
+    "threads": 1,
+    "deepparseCommand": "command.sh",
+    "cudaCommand": "command.sh",
+    "natashaCommand": "natashaRun.sh",
+    "elasticCommand": "elasticRun.sh",
+    "libpostalCommand": "libpostalRun.sh",
+    "datasetFile": "dataset1.txt",
+    "cudaOutFile": "out_cuda.jsonl",
+    "cudaParserDir": "\/home\/rk_services\/test_AddressParser\/cuda-address\/",
+    "yandexDir": "\/home\/rk_services\/test_AddressParser\/yandex\/",
+    "yandexOutFile": "out_yandex.jsonl",
+    "runYandex": false,
+    "elasticParserDir": "\/home\/rk_services\/test_AddressParser\/elastic-address-normalizer\/",
+    "elasticOutFile": "out_elastic.jsonl",
+    "elasticHost": "192.168.57.102",
+    "elasticPort": 9200,
+    "elasticScheme": "http",
+    "deepparseDir": "\/home\/rk_services\/test_AddressParser\/deepparse\/",
+    "deepparseOutFile": "out_deepparse.jsonl",
+    "libpostalDir": "\/home\/rk_services\/test_AddressParser\/pypostal\/",
+    "libpostalOutFile": "out_libpostal.jsonl",
+    "geonormCatalog": "\/home\/rk_services\/test_AddressParser\/natasha\/",
+    "natashaOutFile": "out_natasha.jsonl",
+    "unitedOutFile": "united_out.jsonl",
+    "parsersIndexes": {
+      "natasha": 0,
+      "libpostal": 1,
+      "cuda": 2,
+      "deepparse": 3,
+      "elastic": 4,
+      "yandex": 5
+    },
+    "fieldsBest": {
+      "postalcode": [
+        1
+      ],
+      "region": [
+        0,
+        4
+      ],
+      "region_type": [
+        2,
+        0
+      ],
+      "district": [
+        0,
+        2
+      ],
+      "district_type": [
+        1,
+        3,
+        4
+      ],
+      "city": [
+        0,
+        4
+      ],
+      "city_type": [
+        0,
+        4
+      ],
+      "street": [
+        0,
+        4
+      ],
+      "street_type": [
+        2,
+        0,
+        4,
+        1
+      ],
+      "house": [
+        0,
+        1,
+        2
+      ],
+      "house_type": [
+        2,
+        1
+      ],
+      "unit": [
+        0,
+        2,
+        4
+      ],
+      "unit_type": [
+        4,
+        2
+      ]
+    },
+    "fieldsElse": {
+      "postalcode": [
+        4
+      ],
+      "region": [
+        2,
+        1,
+        3
+      ],
+      "region_type": [
+        1,
+        3,
+        4
+      ],
+      "district": [
+        1,
+        3,
+        4
+      ],
+      "district_type": [
+        2,
+        0
+      ],
+      "city": [
+        1,
+        2
+      ],
+      "city_type": [
+        2,
+        1
+      ],
+      "street": [
+        1,
+        2,
+        3
+      ],
+      "street_type": [],
+      "house": [
+        3,
+        4
+      ],
+      "house_type": [],
+      "unit": [
+        1,
+        3
+      ],
+      "unit_type": [
+        3,
+        1
+      ]
+    },
+    "specialWords": {
+      "house": {
+        "\u0434\u043e\u043c": 5,
+        "\u043a\u043e\u0440\u043f\u0443\u0441": 3,
+        "\u043a\u043e\u0440\u043f\u0443\u0441\u0430": 3,
+        "\u043a\u043e\u0440\u043f\u0443\u0441\u044b": 3,
+        "\u043b\u0438\u0442\u0435\u0440\u0430": 3,
+        "\u043b\u0438\u0442\u0435\u0440\u044b": 3,
+        "\u043b\u0438\u0442\u0435\u0440": 3,
+        "\u0441\u0442\u0440\u043e\u0435\u043d\u0438\u0435": 3,
+        "\u0441\u0442\u0440\u043e\u0435\u043d\u0438\u044f": 3,
+        "\u043a\u043e\u0440\u043f": 1,
+        "\u043b\u0438\u0442": 1,
+        "\u0441\u0442\u0440": 1
+      },
+      "unit": []
+    },
+    "algorithmsForCommonValue": {
+      "region": "firstAlgorithm",
+      "city": "firstAlgorithm",
+      "district": "firstAlgorithm",
+      "street": "firstAlgorithm",
+      "house": "secondAlgorithm",
+      "unit": "secondAlgorithm"
+    },
+    "ConnectionString": "mongodb://192.168.57.102:27017",
+    "commonDatabase": "rk_common"
+  },
+  "params": {
+    "ConnectionString": "mongodb:\/\/192.168.57.102:27017\/?readPreference=primary&appname=MongoDB%20Compass&directConnection=true&ssl=false",
+    "database": "region33_vladimirskaya_obl",
+    "RegionCode": "33",
+    "dataset": "oks_houses_test",
+    "region": "\u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+    "addressField": "AddressDesc",
+    "parseAddress": "false",
+    "geojson": "OKS_analitika_NSPD_33_447900_wgs84.geojson",
+    "geojsonWithSemantics": "true",
+    "keyField": "ID",
+    "cadNumKey": "cad_num",
+    "geojsonSemanticFields": [
+      [
+        "address",
+        "AddressDesc"
+      ],
+      [
+        "area",
+        "Square",
+        "double"
+      ],
+      [
+        "cost",
+        "Cost",
+        "double"
+      ],
+      [
+        "parent_cad_div",
+        "CadQuarter"
+      ],
+      [
+        "permitted_use",
+        "Allowed"
+      ],
+      [
+        "name",
+        "Name"
+      ],
+      [
+        "obj_kind",
+        "ObjectKind"
+      ],
+      [
+        "purpose_value",
+        "Purpose"
+      ],
+      [
+        "purpose_code",
+        "PurposeCode"
+      ],
+      [
+        "floors",
+        "FloorsCount",
+        "int"
+      ],
+      [
+        "height",
+        "Height",
+        "double"
+      ],
+      [
+        "year_built",
+        "YearBuild"
+      ],
+      [
+        "material_value",
+        "Material"
+      ]
+    ],
+    "fileType": "XLSX",
+    "xlsx": [
+      "oks_semantics_1.xlsx",
+      "oks_semantics_2.xlsx"
+    ],
+    "firstRowIndexes": [
+      1,
+      1
+    ],
+    "sheetIndexes": [
+      0,
+      0
+    ],
+    "fields": [
+      [
+        [
+          "cadNum",
+          [
+            0
+          ],
+          "string"
+        ],
+        [
+          "AddressDesc",
+          [
+            1
+          ]
+        ],
+        [
+          "Square",
+          [
+            60
+          ],
+          "double"
+        ],
+        [
+          "Cost",
+          [
+            24
+          ],
+          "double"
+        ],
+        [
+          "CadQuarter",
+          [
+            27
+          ]
+        ],
+        [
+          "Allowed",
+          [
+            2
+          ]
+        ],
+        [
+          "Name",
+          [
+            55
+          ]
+        ],
+        [
+          "ObjectKind",
+          [
+            3
+          ]
+        ],
+        [
+          "Purpose",
+          [
+            50
+          ]
+        ],
+        [
+          "FloorsCount",
+          [
+            41
+          ],
+          "int"
+        ],
+        [
+          "Height",
+          [
+            5
+          ],
+          "double"
+        ],
+        [
+          "YearBuild",
+          [
+            10
+          ]
+        ],
+        [
+          "Material",
+          [
+            47
+          ]
+        ]
+      ],
+      [
+        [
+          "cadNum",
+          [
+            0
+          ],
+          "string"
+        ],
+        [
+          "AddressDesc",
+          [
+            1
+          ]
+        ],
+        [
+          "Square",
+          [
+            60
+          ],
+          "double"
+        ],
+        [
+          "Cost",
+          [
+            24
+          ],
+          "double"
+        ],
+        [
+          "CadQuarter",
+          [
+            27
+          ]
+        ],
+        [
+          "Allowed",
+          [
+            2
+          ]
+        ],
+        [
+          "Name",
+          [
+            55
+          ]
+        ],
+        [
+          "ObjectKind",
+          [
+            3
+          ]
+        ],
+        [
+          "Purpose",
+          [
+            50
+          ]
+        ],
+        [
+          "FloorsCount",
+          [
+            41
+          ],
+          "int"
+        ],
+        [
+          "Height",
+          [
+            5
+          ],
+          "double"
+        ],
+        [
+          "YearBuild",
+          [
+            10
+          ]
+        ],
+        [
+          "Material",
+          [
+            47
+          ]
+        ]
+      ]
+    ]
+  }
+}
+
+  
