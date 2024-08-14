@@ -173,7 +173,7 @@
     "commonDatabase": "rk_common"
   },
   "params": {
-    "ConnectionString": "mongodb:\/\/192.168.57.102:27017\/?readPreference=primary&appname=MongoDB%20Compass&directConnection=true&ssl=false",
+    "ConnectionString": "",
     "database": "region33_vladimirskaya_obl",
     "RegionCode": "33",
     "dataset": "oks_houses_test",
