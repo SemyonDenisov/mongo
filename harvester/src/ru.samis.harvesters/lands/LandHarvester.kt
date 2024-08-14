@@ -65,8 +65,6 @@ abstract class LandHarvester : Harvester() {
                 createIndex(Indexes.ascending("Street"))
                 createIndex(Indexes.ascending("HouseNumber"))
 
-                // должен же быть индекс?
-                // см оксы
                 //createIndex(Indexes.geo2dsphere("Geometry"))
 
                 createIndex(
@@ -121,6 +119,7 @@ abstract class LandHarvester : Harvester() {
                 writeProgress(0.5 + min(progress * 0.5, 0.49), inserted)
             }
         }
+
 
         if (connectOKS && connections.isNotEmpty()) {
             println("Creating h_crosses")

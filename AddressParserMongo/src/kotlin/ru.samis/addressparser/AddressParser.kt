@@ -30,7 +30,6 @@ open class AddressParser {
     private val updateCollection: Boolean
 
 
-
     constructor() {
         val params = settings.getJSONObject("params")
 
@@ -47,7 +46,8 @@ open class AddressParser {
         this.region = MongoClients.create(params.getString("ConnectionString"))
             .getDatabase("rk_metadata")
             .getCollection("regionState")
-            .find(Document("database", params.getString("database"))).first()?.let { document -> document.getString("region") ?: ""} ?: ""
+            .find(Document("database", params.getString("database"))).first()
+            ?.let { document -> document.getString("region") ?: "" } ?: ""
         this.updateCollection = params.optBoolean("updateCollection", true)
 
     }
@@ -76,7 +76,8 @@ open class AddressParser {
         this.region = MongoClients.create(params.getString("ConnectionString"))
             .getDatabase("rk_metadata")
             .getCollection("regionState")
-            .find(Document("database", params.getString("database"))).first()?.let { document -> document.getString("region") ?: ""} ?: ""
+            .find(Document("database", params.getString("database"))).first()
+            ?.let { document -> document.getString("region") ?: "" } ?: ""
         this.updateCollection = params.optBoolean("updateCollection", true)
 
     }

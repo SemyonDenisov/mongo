@@ -204,9 +204,12 @@ abstract class Harvester : AutoCloseable {
         for (newDoc in added) {
             newDoc["todo"] = "add"
             newDoc.remove("old")
-            oldColl.insertOne(newDoc)
+            try {
+                oldColl.insertOne(newDoc)
+            } catch (e: Exception) {
+                println("Failed to add new document to delta collection:  + ${newDoc["_id"]} + $e.message")
+            }
         }
-
 
         val intersection = oldColl.aggregate(
             mutableListOf(
@@ -228,11 +231,15 @@ abstract class Harvester : AutoCloseable {
             } else {
                 compareResult["todo"] = "change"
                 val id = compareResult["_id"]
-                oldColl.replaceOne(
-                    Filters.eq("_id", oldDoc["_id"] as ObjectId),
-                    compareResult
-                )
-                countChange++
+                try {
+                    oldColl.replaceOne(
+                        Filters.eq("_id", oldDoc["_id"] as ObjectId),
+                        compareResult
+                    )
+                    countChange++
+                } catch (e: Exception) {
+                    println("Failed to replace changed document in delta collection:  + $id + $e.message");
+                }
             }
         }
         println("changed $countChange")

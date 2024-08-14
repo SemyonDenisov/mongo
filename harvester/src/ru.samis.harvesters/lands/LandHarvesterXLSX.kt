@@ -98,11 +98,9 @@ class LandHarvesterXLSX : LandHarvester() {
                     val sheet = workbook.getSheetAt(sheetIndex)
 
                     val pairs = mutableMapOf<String, Any>()
-                    // проход по строкам
                     for ((rowIndex, row) in sheet.withIndex()) {
                         if (rowIndex < firstRowIndex) continue
                         pairs.clear()
-                        // проход по столбцам
                         for (cellIndex in 0 until row.lastCellNum) {
                             val cell = row.getCell(cellIndex, Row.MissingCellPolicy.RETURN_NULL_AND_BLANK)
                             fileFields[cellIndex]?.let { fieldInfo ->
@@ -207,7 +205,7 @@ class LandHarvesterXLSX : LandHarvester() {
                                 if (updatesMap.keys.contains(cadNumInt)) {
 
                                     // теперь в мапе лежит список добавленных полей
-                                    // из туташнего дока нужно удалить обязательные поля и поля из мапы
+                                    // из дока нужно удалить обязательные поля и поля из мапы
 
                                     val filteredDocument =
                                         pairs.filter { updatesMap[cadNumInt]?.contains(it.key) == false }

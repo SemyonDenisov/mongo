@@ -1,5 +1,6 @@
-package ru.samis.addressparser
+package addressparser
 
+import ru.samis.addressparser.UnitedParser
 import kotlin.system.exitProcess
 
 

@@ -179,7 +179,7 @@
     "dataset": "oks_houses_test",
     "region": "\u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
     "addressField": "AddressDesc",
-    "parseAddress": "false",
+    "parseAddress": "true",
     "geojson": "OKS_analitika_NSPD_33_447900_wgs84.geojson",
     "geojsonWithSemantics": "true",
     "keyField": "ID",

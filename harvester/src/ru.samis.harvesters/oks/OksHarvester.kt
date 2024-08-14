@@ -11,7 +11,6 @@ import java.io.File
 import kotlin.system.measureTimeMillis
 import kotlin.math.min
 import ru.samis.addressparser.AddressParser
-
 abstract class OksHarvester : Harvester() {
 
     protected val regionName: String = params.getString("region")
@@ -55,8 +54,6 @@ abstract class OksHarvester : Harvester() {
                 createIndex(Indexes.ascending("Municipalitet"))
                 createIndex(Indexes.ascending("Street"))
                 createIndex(Indexes.ascending("HouseNumber"))
-                // должен же быть индекс ?
-                // может и должен быть, но его наличие вызывает ошибки в случае невалидной геометрии
                // createIndex(Indexes.geo2dsphere("Geometry"))
 
                 createIndex(

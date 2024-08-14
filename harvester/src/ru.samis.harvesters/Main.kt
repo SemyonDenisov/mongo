@@ -15,24 +15,20 @@ import kotlin.system.exitProcess
 
 fun main(args: Array<String>) {
 
-
     var time = -System.nanoTime()
+
+
     val configChecker = ConfigChecker()
-    // configChecker.checkBaseConfig()
-    //configChecker.checkAddressConfig()
+// configChecker.checkBaseConfig()
+//configChecker.checkAddressConfig()
 
     if (args.isEmpty()) return
     when (args[0]) {
         "xy" -> XYCalculator()
-
         "centroid" -> CentroidCalculator()
-
         "msprep" -> MsPrepare()
-
         "ms" -> MsHarvester()
-
         "penza" -> PenzaHarvester()
-
         "ingeo" -> IngeoHarvester()
 
         "2gis", "2gis_csv" -> DGISCSVHarvester()
