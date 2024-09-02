@@ -1,0 +1,18 @@
+{
+  "options": {
+    "reformagkhCatalog": "/home/rk_data/harvesters/reformagkh/",
+    "fullness": [
+      "Street",
+      "HouseNumber"
+    ]
+  },
+  "params": {
+    "ConnectionString": "mongodb://localhost:27017",
+    "database": "debug_region63_samarskaya_obl",
+    "RegionCode": "6300",
+    "dataset": "reformagkh_houses",
+    "regionGuid": "df3d7359-afa9-4aaa-8ff9-197e73906b1c"
+  }
+}
+
+
