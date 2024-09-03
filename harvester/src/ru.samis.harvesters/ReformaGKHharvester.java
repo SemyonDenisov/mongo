@@ -362,7 +362,6 @@ public class ReformaGKHharvester extends Harvester {
                     if (!ids.contains(id)) {
                         ids.add(id);
                         housesCollection.insertOne(getInfoAboutHouse(housesInStreet.get(m).getAsJsonObject()));
-                        System.out.println("Загружено домов: " + counter++);
                     }
                 }
             } else {
@@ -376,7 +375,6 @@ public class ReformaGKHharvester extends Harvester {
                         if (!ids.contains(id)) {
                             ids.add(id);
                             housesCollection.insertOne(getInfoAboutHouse(housesInStreet.get(m).getAsJsonObject()));
-                            System.out.println("Загружено домов: " + counter++);
                         }
                     }
                 }
@@ -392,7 +390,6 @@ public class ReformaGKHharvester extends Harvester {
                             if (!ids.contains(id)) {
                                 ids.add(id);
                                 housesCollection.insertOne(getInfoAboutHouse(housesInStreet.get(m).getAsJsonObject()));
-                                System.out.println("Загружено домов: " + counter++);
                             }
                         }
                     } else {
@@ -406,7 +403,6 @@ public class ReformaGKHharvester extends Harvester {
                                 if (!ids.contains(id)) {
                                     ids.add(id);
                                     housesCollection.insertOne(getInfoAboutHouse(housesInStreet.get(m).getAsJsonObject()));
-                                    System.out.println("Загружено домов: " + counter++);
                                 }
                             }
                         }
@@ -424,7 +420,6 @@ public class ReformaGKHharvester extends Harvester {
                         if (!ids.contains(id)) {
                             ids.add(id);
                             housesCollection.insertOne(getInfoAboutHouse(housesInStreet.get(m).getAsJsonObject()));
-                            System.out.println("Загружено домов: " + counter++);
                         }
                     }
                 }
@@ -444,7 +439,6 @@ public class ReformaGKHharvester extends Harvester {
                     if (!ids.contains(id)) {
                         ids.add(id);
                         housesCollection.insertOne(getInfoAboutHouse(housesInStreet.get(m).getAsJsonObject()));
-                        System.out.println("Загружено домов: " + counter++);
                     }
                 }
             } else {
@@ -460,7 +454,6 @@ public class ReformaGKHharvester extends Harvester {
                             if (!ids.contains(id)) {
                                 ids.add(id);
                                 housesCollection.insertOne(getInfoAboutHouse(housesInStreet.get(m).getAsJsonObject()));
-                                System.out.println("Загружено домов: " + counter++);
                             }
                         }
                     } else {
@@ -474,7 +467,6 @@ public class ReformaGKHharvester extends Harvester {
                                 if (!ids.contains(id)) {
                                     ids.add(id);
                                     housesCollection.insertOne(getInfoAboutHouse(housesInStreet.get(m).getAsJsonObject()));
-                                    System.out.println("Загружено домов: " + counter++);
                                 }
                             }
                         }

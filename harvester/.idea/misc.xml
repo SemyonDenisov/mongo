@@ -5,7 +5,6 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../AddressParserAll/pom.xml" />
-        <option value="$PROJECT_DIR$/../AddressParserMongo/pom.xml" />
       </list>
     </option>
   </component>
